@@ -1,5 +1,4 @@
-
-img {
+img.selfie {
 	width: 25%;
 	height: auto;
 	border: dashed #5D0EC6 4px;
@@ -21,3 +20,13 @@ body{
 	background-color: #62A3FF;
 }
 
+img.art {
+	padding-left: 500px;
+	opacity: .4;
+	}
+
+img.art:hover{
+	opacity: 1;
+	position: absolute;
+	-webkit-transform: scale(1.2);
+}
