@@ -1,0 +1,23 @@
+
+img {
+	width: 25%;
+	height: auto;
+	border: dashed #5D0EC6 4px;
+	border-radius: 75%
+}
+nav{
+	background: #BB0C0F;
+	padding: 1px;
+	text-align: right;
+	padding-right: 45px;
+}
+
+ul a:hover{
+	color: #FF00B3 ;
+	font-weight: bolder;
+}
+
+body{
+	background-color: #62A3FF;
+}
+
