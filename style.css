@@ -1,9 +1,11 @@
+
 img.selfie {
 	width: 25%;
 	height: auto;
 	border: dashed #5D0EC6 4px;
 	border-radius: 75%
 }
+
 nav{
 	background: #BB0C0F;
 	padding: 1px;
@@ -11,22 +13,29 @@ nav{
 	padding-right: 45px;
 }
 
+/*
 ul a:hover{
 	color: #FF00B3 ;
 	font-weight: bolder;
 }
+*/
 
 body{
 	background-color: #62A3FF;
+	height: 100px;
 }
+
 
 img.art {
 	padding-left: 500px;
 	opacity: .4;
+	width: 50px;
+	height: 40px;
 	}
 
 img.art:hover{
 	opacity: 1;
-	position: absolute;
-	-webkit-transform: scale(1.2);
+	position: relative;
+	transform: scale(1.2);
 }
+
